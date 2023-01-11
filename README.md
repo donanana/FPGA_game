@@ -48,4 +48,4 @@
 遊戲結束→長響  
 
 7.影片連結  
-https://youtu.be/IloY5Tv4Ndk
+https://youtu.be/l76XrMk1W6o
