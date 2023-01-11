@@ -1,0 +1,7 @@
+Warning (10268): Verilog HDL information at LD_final_project.v(63): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at LD_final_project.v(102): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at LD_final_project.v(130): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at LD_final_project.v(206): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at LD_final_project.v(7): object "Left" differs only in case from object "left" in the same scope
+Info (10281): Verilog HDL Declaration information at LD_final_project.v(7): object "Right" differs only in case from object "right" in the same scope
+Info (10281): Verilog HDL Declaration information at LD_final_project.v(408): object "a" differs only in case from object "A" in the same scope

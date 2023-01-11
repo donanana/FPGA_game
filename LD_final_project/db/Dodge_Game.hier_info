@@ -1,0 +1,95 @@
+|Dodge_Game
+DATA_R[0] <= DATA_R[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[1] <= DATA_R[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[2] <= DATA_R[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[3] <= DATA_R[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[4] <= DATA_R[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[5] <= DATA_R[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[6] <= DATA_R[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[7] <= DATA_R[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_G[0] <= <GND>
+DATA_G[1] <= <GND>
+DATA_G[2] <= <GND>
+DATA_G[3] <= <GND>
+DATA_G[4] <= <GND>
+DATA_G[5] <= <GND>
+DATA_G[6] <= <GND>
+DATA_G[7] <= <GND>
+DATA_B[0] <= <GND>
+DATA_B[1] <= <GND>
+DATA_B[2] <= <GND>
+DATA_B[3] <= <GND>
+DATA_B[4] <= <GND>
+DATA_B[5] <= <GND>
+DATA_B[6] <= <GND>
+DATA_B[7] <= <GND>
+COMM[0] <= COMM[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+COMM[1] <= COMM[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+COMM[2] <= COMM[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+EN <= EN~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => CLK.IN2
+Left => always0.IN1
+Right => always0.IN1
+
+
+|Dodge_Game|divfreq:F0
+CLK => CLK_div~reg0.CLK
+CLK => Count[0].CLK
+CLK => Count[1].CLK
+CLK => Count[2].CLK
+CLK => Count[3].CLK
+CLK => Count[4].CLK
+CLK => Count[5].CLK
+CLK => Count[6].CLK
+CLK => Count[7].CLK
+CLK => Count[8].CLK
+CLK => Count[9].CLK
+CLK => Count[10].CLK
+CLK => Count[11].CLK
+CLK => Count[12].CLK
+CLK => Count[13].CLK
+CLK => Count[14].CLK
+CLK => Count[15].CLK
+CLK => Count[16].CLK
+CLK => Count[17].CLK
+CLK => Count[18].CLK
+CLK => Count[19].CLK
+CLK => Count[20].CLK
+CLK => Count[21].CLK
+CLK => Count[22].CLK
+CLK => Count[23].CLK
+CLK => Count[24].CLK
+CLK_div <= CLK_div~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Dodge_Game|divfreq1:F1
+CLK => CLK_fall_speed~reg0.CLK
+CLK => Count[0].CLK
+CLK => Count[1].CLK
+CLK => Count[2].CLK
+CLK => Count[3].CLK
+CLK => Count[4].CLK
+CLK => Count[5].CLK
+CLK => Count[6].CLK
+CLK => Count[7].CLK
+CLK => Count[8].CLK
+CLK => Count[9].CLK
+CLK => Count[10].CLK
+CLK => Count[11].CLK
+CLK => Count[12].CLK
+CLK => Count[13].CLK
+CLK => Count[14].CLK
+CLK => Count[15].CLK
+CLK => Count[16].CLK
+CLK => Count[17].CLK
+CLK => Count[18].CLK
+CLK => Count[19].CLK
+CLK => Count[20].CLK
+CLK => Count[21].CLK
+CLK => Count[22].CLK
+CLK => Count[23].CLK
+CLK => Count[24].CLK
+CLK => Count[25].CLK
+CLK_fall_speed <= CLK_fall_speed~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
