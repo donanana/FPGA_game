@@ -36,7 +36,7 @@
 </table>
 
 3.死亡圖示  
-<img width="250" height="250" src="https://user-images.githubusercontent.com/56293969/211737702-d59f7d0f-79b6-4ba2-b5b2-cfe9becda182.jpeg"/>  
+<img width="250" height="250" src="https://user-images.githubusercontent.com/56293969/211741182-a0b63c37-332e-479f-bf18-42ba90d03fe9.jpeg"/>  
 
 4.音效  
 血量增加→響一下  
